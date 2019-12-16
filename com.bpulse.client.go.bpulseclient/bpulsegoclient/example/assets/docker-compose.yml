@@ -1,0 +1,19 @@
+bpc:
+  image: "theskyinflames/bpc"
+  environment:
+    - GO_VERSION go1.5.1
+    - BPULSE_BUILD_TAGS debug
+    - GO_COMMON_LIB_CONFIGURATION_FILE=/conf/BPulseGoClient.ini
+    - GO_COMMON_LIB_EVENTS_FILE=/conf/EventsConfiguration.json
+    - CODE_BRANCH=master
+    - REPO_NAME=bpulse-go-client
+    - REPO_NAME_PREFIX=github.com/pineda89
+    - REPO https://github.com/pineda89/bpulse-go-client.git
+    - BPULSEID=bpulse_serhs_MDHPLTEST
+    - BPULSE_HOST=10.2.96.50
+    - BPULSE_PORT=30001
+    - BPULSE_USER=collector@serhs.com
+    - BPULSE_PWD=t3mporal
+    - EXAMPLE_LOOP_DELAY_IN_MS=1
+
+

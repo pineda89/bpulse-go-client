@@ -1,0 +1,129 @@
+{
+  "events": [
+    {
+      "code": "000-000",
+      "level": "INFO",
+      "message": "Test message: #"
+    },
+    {
+      "code": "001-001",
+      "level": "FATAL",
+      "message": "The item # is not registered in the container !!"
+    },
+    {
+      "code": "003-001",
+      "level": "FATAL",
+      "message": "The aggregation channel has been closed, the aggregator is going to shutdown ..."
+    },
+    {
+      "code": "003-002",
+      "level": "ERROR",
+      "message": "Something went wrong on shutdown the aggregator: #"
+    },
+    {
+      "code": "004-001",
+      "level": "ERROR",
+      "message": "Something went wrong on creating the request to BPulse at # : #"
+    },
+    {
+      "code": "004-002",
+      "level": "ERROR",
+      "message": "Something went wrong on doing the request to BPulse at # : #"
+    },
+    {
+      "code": "004-003",
+      "level": "ERROR",
+      "message": "Something went wrong on the response from BPulse at # : #"
+    },
+    {
+      "code": "004-004",
+      "level": "ERROR",
+      "message": "Something went wrong on unmarshall BPulse response from # : # . Response body: #"
+    },
+    {
+      "code": "004-005",
+      "level": "ERROR",
+      "message": "Something went wrong on marshal the request to BPulse # : #"
+    },
+    {
+      "code": "004-006",
+      "level": "ERROR",
+      "message": "The response message instances getter has not been provide !!!"
+    },
+    {
+      "code": "005-001",
+      "level": "ERROR",
+      "message": "The item # is not into the container."
+    },
+    {
+      "code": "005-002",
+      "level": "ERROR",
+      "message": "The parameter # is not into the container."
+    },
+    {
+      "code": "005-003",
+      "level": "ERROR",
+      "message": "The container is empty, it can't be started."
+    },
+    {
+      "code": "006-001",
+      "level": "ERROR",
+      "message": "Something went wrong on taking a pulse record: #"
+    },
+    {
+      "code": "006-002",
+      "level": "ERROR",
+      "message": "Something went wrong on taking a sending channel adapter: #"
+    },
+    {
+      "code": "006-003",
+      "level": "ERROR",
+      "message": "Something went wrong on sending the pulse rq: #"
+    },
+    {
+      "code": "006-004",
+      "level": "ERROR",
+      "message": "The rq maker has not been set for the sender: #"
+    },
+    {
+      "code": "006-005",
+      "level": "ERROR",
+      "message": "Something went wrong at pulse rq making: #"
+    },
+    {
+      "code": "007-001",
+      "level": "ERROR",
+      "message": "The ring # is shutdown by timeout"
+    },
+    {
+      "code": "007-002",
+      "level": "ERROR",
+      "message": "The pulses writer has exceed the reader at #"
+    },
+    {
+      "code": "008-001",
+      "level": "ERROR",
+      "message": "It's mandatory to provide an valid RQ maker !!!"
+    },
+    {
+      "code": "008-002",
+      "level": "ERROR",
+      "message": "It's mandatory to provide a bpulse rs instance getter !!!"
+    },
+    {
+      "code": "008-003",
+      "level": "ERROR",
+      "message": "The bpulse client has been already started !!!"
+    },
+    {
+      "code": "008-004",
+      "level": "ERROR",
+      "message": "The bpulse client has no been started yet !!!"
+    },
+    {
+      "code": "009-001",
+      "level": "ERROR",
+      "message": "Something went wrong with the event sending: #"
+    }
+  ]
+}
