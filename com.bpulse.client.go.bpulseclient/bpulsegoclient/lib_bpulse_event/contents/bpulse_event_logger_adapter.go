@@ -128,7 +128,7 @@ func (ev *EventLogger) Send_event(event_message *lib_bpulse_event.Event_message)
 	for z:=0;z<ev.server.reentries;z++ {
 		request := gorequest.New().Timeout(time.Duration(ev.server.timeout) * time.Millisecond)
 		request.Transport = tr
-		request.Header["Authorization"]="Basic "+ev.basicAuth(ev.server.user,ev.server.user)
+		request.Header.Add("Authorization", "Basic "+ev.basicAuth(ev.server.user,ev.server.user))
 		_, body, errs := request.Post(ev.server.url).
 		Set("Content-Type", "application/json").
 		Send(string(mJson)).
